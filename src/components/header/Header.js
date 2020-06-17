@@ -18,8 +18,12 @@ export default class Header extends Component {
           value={filter}
           onChange={this.handleInputChange}
         />
-        <span>|Paises:{formatNumber(countryCount)} </span>
-        <span>|Populaçao: {formatNumber(totalPopulation)}</span>
+        <span>
+          |Paises:<strong>{formatNumber(countryCount)}</strong>{' '}
+        </span>
+        <span>
+          |Populaçao: <strong>{formatNumber(totalPopulation)}</strong>
+        </span>
       </Fragment>
     );
   }
