@@ -69,7 +69,7 @@ export default class App extends Component {
     const { filteredCountries, filteredPopulation, filter } = this.state;
     return (
       <div className="container">
-        <h3>React Find Countries</h3>
+        <h4>React Find Countries</h4>
         <Header
           filter={filter}
           countryCount={filteredCountries.length}
